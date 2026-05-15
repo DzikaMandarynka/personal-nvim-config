@@ -1,0 +1,20 @@
+{
+  "Criterion Benchmark": {
+    "prefix": "cnbench",
+    "body": [
+      "use criterion::{Criterion, criterion_group, criterion_main};",
+      "",
+      "fn bench_${1:name}(c: &mut Criterion) {",
+      "    c.bench_function(\"${1:name}\", |b| {",
+      "        b.iter(|| {",
+      "            ${2:// code}",
+      "        });",
+      "    });",
+      "}",
+      "",
+      "criterion_group!(benches, bench_${1:name});",
+      "criterion_main!(benches);"
+    ],
+    "description": "Criterion benchmark template"
+  }
+}
