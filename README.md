@@ -1,1 +1,1 @@
-# Personal Neovim config, based on A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
+# Personal Neovim config, based on a starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
