@@ -1,4 +1,32 @@
 {
+  "Rust Doc Comment": {
+    "prefix": "rustdoc",
+    "body": [
+      "/// ${1:summary}",
+      "",
+      "/// ${2:description}",
+      "///",
+      "/// # Safety",
+      "///",
+      "/// ${3:invariants}",
+      "///",
+      "/// # Panics",
+      "///",
+      "/// ${4:panic conditions}",
+      "///",
+      "/// # Errors",
+      "///",
+      "/// ${5:error conditions}",
+      "///",
+      "/// # Examples",
+      "///",
+      "/// ```rust",
+      "/// ${6:// example code}",
+      "/// ```",
+      "$0"
+    ],
+    "description": "Rust doc comment with Safety, Panics, Errors, Examples"
+  },
   "Criterion Benchmark": {
     "prefix": "cnbench",
     "body": [
